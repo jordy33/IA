@@ -105,3 +105,5 @@ UsePAM yes
 ClientAliveInterval 120
 ClientAliveCountMax 2
 ```
+
+sftp root@sun.dudewhereismy.com.mx:/etc/haproxy/certs/dudewhereismy.com.mx.pem /etc/haproxy/certs/dudewhereismy.com.mx.pem && service haproxy restart
