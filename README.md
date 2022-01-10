@@ -11,6 +11,7 @@ chmod o-w ~/; chmod 700 ~/.ssh; chmod 600 ~/.ssh/authorized_keys
 
 2. check /etc/ssh/sshd_config settings && service sshd restart (after each edit) Useful: try "LogLevel VERBOSE" in sshd_config.
 
+```
 # Package generated configuration file
 # See the sshd_config(5) manpage for details
 
@@ -103,3 +104,4 @@ UsePAM yes
 # Added by DigitalOcean build process
 ClientAliveInterval 120
 ClientAliveCountMax 2
+```
