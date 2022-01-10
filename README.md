@@ -106,4 +106,4 @@ ClientAliveInterval 120
 ClientAliveCountMax 2
 ```
 
-sftp root@sun.dudewhereismy.com.mx:/etc/haproxy/certs/dudewhereismy.com.mx.pem /etc/haproxy/certs/dudewhereismy.com.mx.pem && service haproxy restart
+sftp root@sun.dudewhereismy.com.mx:/etc/haproxy/certs/file.pem /etc/haproxy/certs/file.pem && service haproxy restart
